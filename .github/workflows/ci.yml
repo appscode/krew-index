@@ -16,6 +16,22 @@ jobs:
           go-version: 1.15
         id: go
 
+      - name: Install kubectl
+        run: |
+          curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.17.0/bin/linux/amd64/kubectl
+          chmod +x ./kubectl
+          sudo mv ./kubectl /usr/local/bin/kubectl
+
+      - name: Install krew
+        run: |
+          cd "$(mktemp -d)"
+          curl -fsSLO "https://github.com/kubernetes-sigs/krew/releases/latest/download/krew.tar.gz"
+          tar zxvf krew.tar.gz
+          KREW=./krew-"$(uname | tr '[:upper:]' '[:lower:]')_amd64"
+          chmod +x "$KREW"
+          sudo mv "$KREW" /usr/local/bin/kubectl-krew
+          kubectl krew version
+
       - name: Install validate-krew-manifest
         run: |
           export GOPATH=$(go env GOPATH)
