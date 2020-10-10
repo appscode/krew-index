@@ -107,6 +107,7 @@ fi
 
 # generate krew manifest
 cd $PLUGIN_ROOT
+mkdir -p $SCRIPT_ROOT/plugins
 make gen-krew-manifest >$SCRIPT_ROOT/plugins/$PLUGIN_NAME.yaml
 
 # commit updated krew manifest
