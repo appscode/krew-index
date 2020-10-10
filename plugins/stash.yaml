@@ -1,0 +1,61 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: stash
+spec:
+  version: v0.11.3-alpha.0
+  homepage: https://stash.run
+  shortDescription: kubectl plugin for Stash by AppsCode
+  description: |
+    This plugin provides a list of commands to interact with Stash custom resources.
+  platforms:
+    - selector:
+        matchLabels:
+          os: darwin
+          arch: amd64
+      uri: https://github.com/stashed/cli/releases/download/v0.11.3-alpha.0/kubectl-stash-darwin-amd64.tar.gz
+      sha256: baa296a0e97f971a462ac98ead46df88ae01add892c6953121518a2e36bfb950
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-stash-darwin-amd64
+    - selector:
+        matchLabels:
+          os: linux
+          arch: amd64
+      uri: https://github.com/stashed/cli/releases/download/v0.11.3-alpha.0/kubectl-stash-linux-amd64.tar.gz
+      sha256: 80bf2bb4fbfc6ce44a9548b27eeda8b1cc12602d71e698c15296e4c4d9cc02cd
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-stash-linux-amd64
+    - selector:
+        matchLabels:
+          os: linux
+          arch: arm
+      uri: https://github.com/stashed/cli/releases/download/v0.11.3-alpha.0/kubectl-stash-linux-arm.tar.gz
+      sha256: 31fd319ce5da39001262ce6f2dd59378e6e0626a891898fcdc766af36347c135
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-stash-linux-arm
+    - selector:
+        matchLabels:
+          os: linux
+          arch: arm64
+      uri: https://github.com/stashed/cli/releases/download/v0.11.3-alpha.0/kubectl-stash-linux-arm64.tar.gz
+      sha256: db22cc5a04256c34374228f75e972b08ed57423a4c277a9e39a589121f2eb0c3
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-stash-linux-arm64
+    - selector:
+        matchLabels:
+          os: windows
+          arch: amd64
+      uri: https://github.com/stashed/cli/releases/download/v0.11.3-alpha.0/kubectl-stash-windows-amd64.zip
+      sha256: 5d8101380aa2cd6455cdaa0eb662d8f44411c5e53bed6880a9204f1943f0ddc0
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-stash-windows-amd64.exe
