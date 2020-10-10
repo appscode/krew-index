@@ -1,5 +1,6 @@
 # krew-index
-Krew index for kubectl plugins by AppsCode
+
+[Krew](https://krew.sigs.k8s.io/) is the plugin manager for kubectl command-line tool. This repository hosts the krew index for custom kubectl plugins by AppsCode.
 
 ## Install kubectl
 
