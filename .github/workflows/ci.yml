@@ -37,7 +37,7 @@ jobs:
           export GOPATH=$(go env GOPATH)
           export GOBIN=$GOPATH/bin
           mkdir -p $GOBIN
-          go get sigs.k8s.io/krew/cmd/validate-krew-manifest
+          GO111MODULE=on go get sigs.k8s.io/krew/cmd/validate-krew-manifest
           sudo mv $GOBIN/* /usr/local/bin
           validate-krew-manifest -h
 

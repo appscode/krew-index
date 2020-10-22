@@ -116,6 +116,7 @@ git push -u origin HEAD -f
 pr_cmd=$(
     cat <<EOF
 hub pull-request \
+    --labels automerge \
     --message "Publish $pr_branch plugin" \
     --message "$(git show -s --format=%b)"
 EOF
