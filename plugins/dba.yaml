@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: dba
 spec:
-  version: v0.17.0
+  version: v0.17.1
   homepage: https://kubedb.com
   shortDescription: kubectl plugin for KubeDB by AppsCode
   description: |
@@ -13,8 +13,8 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/kubedb/cli/releases/download/v0.17.0/kubectl-dba-darwin-amd64.tar.gz
-      sha256: ce96b4682f1180d6c75a0246f59f46eed56bcabac0eccc0f85b505e2ba90f35d
+      uri: https://github.com/kubedb/cli/releases/download/v0.17.1/kubectl-dba-darwin-amd64.tar.gz
+      sha256: 24a75ffd6a32d75c43953e04a42ecab58d190ed6e85599c26525fbaf8a9f82ee
       files:
         - from: "*"
           to: "."
@@ -23,8 +23,8 @@ spec:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/kubedb/cli/releases/download/v0.17.0/kubectl-dba-linux-amd64.tar.gz
-      sha256: 37f797e3b4a9f9238ef2a6d8f3765759336c3d6152b4c7e65bd4739b2b5e1d0a
+      uri: https://github.com/kubedb/cli/releases/download/v0.17.1/kubectl-dba-linux-amd64.tar.gz
+      sha256: 280457b1d7bccea94a8516bed4f6a8989212e98c5780b67760d14ba333741480
       files:
         - from: "*"
           to: "."
@@ -33,8 +33,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm
-      uri: https://github.com/kubedb/cli/releases/download/v0.17.0/kubectl-dba-linux-arm.tar.gz
-      sha256: 1fb75c4dbda98c944d48c88b4842e40d161ccec905f54d46ae0a83c71d6f3c44
+      uri: https://github.com/kubedb/cli/releases/download/v0.17.1/kubectl-dba-linux-arm.tar.gz
+      sha256: 6612d8ffa87c403cc2e97462e196f8981e826be9826b7c1ce5fd0fd6cf3342af
       files:
         - from: "*"
           to: "."
@@ -43,8 +43,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/kubedb/cli/releases/download/v0.17.0/kubectl-dba-linux-arm64.tar.gz
-      sha256: 1f2ac55a996fed3e9db29830560f5796bef8642a0dc0e25020c756b6ee6cca6b
+      uri: https://github.com/kubedb/cli/releases/download/v0.17.1/kubectl-dba-linux-arm64.tar.gz
+      sha256: 69fd5d710ccc39ebadc632961727408a4dd2a2a4b8d84ae410df18b81da8fc77
       files:
         - from: "*"
           to: "."
@@ -53,8 +53,8 @@ spec:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/kubedb/cli/releases/download/v0.17.0/kubectl-dba-windows-amd64.zip
-      sha256: b5facdc35fa8a650d8ad59267bfabc74b3133cd3f9217d156cfea96a876b6d59
+      uri: https://github.com/kubedb/cli/releases/download/v0.17.1/kubectl-dba-windows-amd64.zip
+      sha256: ce7bd1ca14888d7923b6e3462cb4158970d311e806e23013c23d5e813d734f96
       files:
         - from: "*"
           to: "."
