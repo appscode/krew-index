@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: stash
 spec:
-  version: v0.12.0
+  version: v0.12.1
   homepage: https://stash.run
   shortDescription: kubectl plugin for Stash by AppsCode
   description: |
@@ -13,8 +13,8 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/stashed/cli/releases/download/v0.12.0/kubectl-stash-darwin-amd64.tar.gz
-      sha256: ee3943f9aeb467ed2b59d046638fbfadfaf3a2c8499821ebe9c308e541e712de
+      uri: https://github.com/stashed/cli/releases/download/v0.12.1/kubectl-stash-darwin-amd64.tar.gz
+      sha256: 646b3dea50c1b60e34cf0fc80c105cf535a1104dd2b27a5ad55c1bcaeb2d2418
       files:
         - from: "*"
           to: "."
@@ -23,8 +23,8 @@ spec:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/stashed/cli/releases/download/v0.12.0/kubectl-stash-linux-amd64.tar.gz
-      sha256: fa69a27d8c226342f10e5e78c125ab298a9eef6e57dc84426a0e618e2dbada0d
+      uri: https://github.com/stashed/cli/releases/download/v0.12.1/kubectl-stash-linux-amd64.tar.gz
+      sha256: fbabc9717e2591dac75f478a142b379b1adaf6ae80cd2e5442243108ee73323f
       files:
         - from: "*"
           to: "."
@@ -33,8 +33,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm
-      uri: https://github.com/stashed/cli/releases/download/v0.12.0/kubectl-stash-linux-arm.tar.gz
-      sha256: 6167279f6906ffd772b9d9ab846bd809ab11fac96c106d2281f29c700c942156
+      uri: https://github.com/stashed/cli/releases/download/v0.12.1/kubectl-stash-linux-arm.tar.gz
+      sha256: 65f77e76c6c8bb120418ac9a0625c28e0d72234781cb6cb8ae35238c4a7610a4
       files:
         - from: "*"
           to: "."
@@ -43,8 +43,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/stashed/cli/releases/download/v0.12.0/kubectl-stash-linux-arm64.tar.gz
-      sha256: 07f9e8cbadd58112e239b38203a58b9844c447c3f11e1a882f771f9a457d40b8
+      uri: https://github.com/stashed/cli/releases/download/v0.12.1/kubectl-stash-linux-arm64.tar.gz
+      sha256: a258f1e3b993b57419469579b7717fb77e2c95a75fcb930453e28f28c9b101a3
       files:
         - from: "*"
           to: "."
@@ -53,8 +53,8 @@ spec:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/stashed/cli/releases/download/v0.12.0/kubectl-stash-windows-amd64.zip
-      sha256: 0ac8ab0feda43c1ac652d5f60504e6b444bf874bb690e8547fa12deb5bcbd18a
+      uri: https://github.com/stashed/cli/releases/download/v0.12.1/kubectl-stash-windows-amd64.zip
+      sha256: 523e0a8223abeca19be786bc168df44ec10f0a732daae82c28bad97a7d16aed2
       files:
         - from: "*"
           to: "."
