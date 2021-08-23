@@ -14,7 +14,7 @@ spec:
           os: darwin
           arch: amd64
       uri: https://github.com/kubedb/cli/releases/download/v0.20.0/kubectl-dba-darwin-amd64.tar.gz
-      sha256: 691c9479870fc04602acbf244f929aa860acd629192ff19841ca8450a1bb4fe3
+      sha256: 22b5fd623282416531d28f7bb76bdb56c122baac9de4161ecc5a7cf40e6e3b5b
       files:
         - from: "*"
           to: "."
@@ -24,7 +24,7 @@ spec:
           os: linux
           arch: amd64
       uri: https://github.com/kubedb/cli/releases/download/v0.20.0/kubectl-dba-linux-amd64.tar.gz
-      sha256: aa1d52d4e6947be230eaa1c5449a48d3ea98a449b70ad6a5bf7954cdfaea9d55
+      sha256: 940d5cd783396310cee4af7b65352c381d8ebca47e13f882bfe668fc53859fda
       files:
         - from: "*"
           to: "."
@@ -34,7 +34,7 @@ spec:
           os: linux
           arch: arm
       uri: https://github.com/kubedb/cli/releases/download/v0.20.0/kubectl-dba-linux-arm.tar.gz
-      sha256: e7df19f89cfc0da600e95a486f916ddb9c09e08141dad04a3373d3942b6418b6
+      sha256: d53382e2088714f77fb0c6e3ac03f8c70aab6c7bc92a774ab89c21f52532f73b
       files:
         - from: "*"
           to: "."
@@ -44,7 +44,7 @@ spec:
           os: linux
           arch: arm64
       uri: https://github.com/kubedb/cli/releases/download/v0.20.0/kubectl-dba-linux-arm64.tar.gz
-      sha256: d90f7ec604f8539053a68501427585d585c98dced130c47938ff64752bf2f390
+      sha256: 4ab2bfb49f477281202c3d8cfdb28630e1d86e85bce0b14f598e9c89d5bed53d
       files:
         - from: "*"
           to: "."
@@ -54,7 +54,7 @@ spec:
           os: windows
           arch: amd64
       uri: https://github.com/kubedb/cli/releases/download/v0.20.0/kubectl-dba-windows-amd64.zip
-      sha256: 3acecb0532c94986fc4083ab7a3a9a4864bcc64754413f843dc9df0a64b885c6
+      sha256: f988d74a1076ff4766078a4c5c314ccffeed7776176f3b794de5dc878cad65cc
       files:
         - from: "*"
           to: "."
