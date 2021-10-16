@@ -1,0 +1,61 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: voyager
+spec:
+  version: v0.0.2
+  homepage: https://voyagermesh.com
+  shortDescription: kubectl plugin for Voyager by AppsCode
+  description: |
+    This plugin provides a list of commands to interact with Voyager custom resources.
+  platforms:
+    - selector:
+        matchLabels:
+          os: darwin
+          arch: amd64
+      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.2/kubectl-voyager-darwin-amd64.tar.gz
+      sha256: cc0a3b13d791e466499efba09bffbfb94a0868242fc1c5931ef41ef8604ddf95
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-voyager-darwin-amd64
+    - selector:
+        matchLabels:
+          os: linux
+          arch: amd64
+      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.2/kubectl-voyager-linux-amd64.tar.gz
+      sha256: d2c51f7d24609992fd1f675698b9b468b0a150fc55b3ee6391c4df15b55cd6df
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-voyager-linux-amd64
+    - selector:
+        matchLabels:
+          os: linux
+          arch: arm
+      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.2/kubectl-voyager-linux-arm.tar.gz
+      sha256: 93ec476ef316d4780ab52662a5839a52b74a042e81ffb12ce90f0e0dc9c0b0bf
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-voyager-linux-arm
+    - selector:
+        matchLabels:
+          os: linux
+          arch: arm64
+      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.2/kubectl-voyager-linux-arm64.tar.gz
+      sha256: 2eb48a1ffe66140ce5e0ddb1da3e651ebd4a5c7c6185385b648a81e51df3878b
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-voyager-linux-arm64
+    - selector:
+        matchLabels:
+          os: windows
+          arch: amd64
+      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.2/kubectl-voyager-windows-amd64.zip
+      sha256: be19334cbd7701336a6d35d64d81e531cdc393bded592e55465394b50d62d3fe
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-voyager-windows-amd64.exe
