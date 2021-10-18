@@ -25,7 +25,7 @@ jobs:
       - name: Install krew
         run: |
           cd "$(mktemp -d)"
-          curl -fsSLO "https://github.com/kubernetes-sigs/krew/releases/latest/download/krew.tar.gz"
+          curl -fsSLO "https://github.com/kubernetes-sigs/krew/releases/download/v0.4.1/krew.tar.gz"
           tar zxvf krew.tar.gz
           KREW=./krew-"$(uname | tr '[:upper:]' '[:lower:]')_amd64"
           chmod +x "$KREW"
