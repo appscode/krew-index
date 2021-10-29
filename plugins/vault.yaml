@@ -3,59 +3,59 @@ kind: Plugin
 metadata:
   name: vault
 spec:
-  version: v0.6.0-alpha.0
-  homepage: https://kubevault.com
-  shortDescription: kubectl plugin for KubeVault by AppsCode
+  version: v0.1.0
+  homepage: https://kubeform.com
+  shortDescription: kubectl plugin for Kubeform by AppsCode
   description: |
-    This plugin provides a list of commands to interact with KubeVault custom resources.
+    This plugin provides a list of commands to interact with Kubeform custom resources.
   platforms:
     - selector:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/kubevault/cli/releases/download/v0.6.0-alpha.0/kubectl-vault-darwin-amd64.tar.gz
-      sha256: f3fce3c3ac2a9e5f5e02cb8639bf6c3241ad736864541988dc27ba717c7a154c
+      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-darwin-amd64.tar.gz
+      sha256: baa57b399aae23c7a71c2116216c88364bd6bbecd3a4a2a9bc287b6bb877c0af
       files:
         - from: "*"
           to: "."
-      bin: kubectl-vault-darwin-amd64
+      bin: kubectl-kf-darwin-amd64
     - selector:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/kubevault/cli/releases/download/v0.6.0-alpha.0/kubectl-vault-linux-amd64.tar.gz
-      sha256: a357c9bc480c44fd87ebc900e79f34dced379d79044082f40a724f490eb66f28
+      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-amd64.tar.gz
+      sha256: 4aabad1262496f71762da16bd387d3c601f0a7d6563c78ef3dcce0a3f2a518be
       files:
         - from: "*"
           to: "."
-      bin: kubectl-vault-linux-amd64
+      bin: kubectl-kf-linux-amd64
     - selector:
         matchLabels:
           os: linux
           arch: arm
-      uri: https://github.com/kubevault/cli/releases/download/v0.6.0-alpha.0/kubectl-vault-linux-arm.tar.gz
-      sha256: f38cbc93015775fd631b5f2094eb6517a3e998291627bc388ecf66d05dff62a3
+      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-arm.tar.gz
+      sha256: 5c83ec993d508fd176aaff8c4996390ea80ea18156b092e7fb1420859aacc61f
       files:
         - from: "*"
           to: "."
-      bin: kubectl-vault-linux-arm
+      bin: kubectl-kf-linux-arm
     - selector:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/kubevault/cli/releases/download/v0.6.0-alpha.0/kubectl-vault-linux-arm64.tar.gz
-      sha256: 8c4aead96d279ea992dcd44a755b58cc3a19017aeb668e5582ad3f5914885ce0
+      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-arm64.tar.gz
+      sha256: d8c78ef9ddfa2c850bc330147e321aac8537a9c9642bdcc94965c92d48ecbf9b
       files:
         - from: "*"
           to: "."
-      bin: kubectl-vault-linux-arm64
+      bin: kubectl-kf-linux-arm64
     - selector:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/kubevault/cli/releases/download/v0.6.0-alpha.0/kubectl-vault-windows-amd64.zip
-      sha256: 02e6b6b62165038266117bb960d4ea15abf651979a0a314a0cd075d801147fd3
+      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-windows-amd64.zip
+      sha256: 11d072b007da2b3d1d586b903f7efbf01ce04be68268190aeaec6d1629fa1ab6
       files:
         - from: "*"
           to: "."
-      bin: kubectl-vault-windows-amd64.exe
+      bin: kubectl-kf-windows-amd64.exe
