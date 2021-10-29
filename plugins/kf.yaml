@@ -1,0 +1,61 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: kf
+spec:
+  version: v0.1.0
+  homepage: https://kubeform.com
+  shortDescription: kubectl plugin for Kubeform by AppsCode
+  description: |
+    This plugin provides a list of commands to interact with Kubeform custom resources.
+  platforms:
+    - selector:
+        matchLabels:
+          os: darwin
+          arch: amd64
+      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-darwin-amd64.tar.gz
+      sha256: d0cc744483610bc203f9cbac9acce6682df9311c83955147ff6c187d8292cb52
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-kf-darwin-amd64
+    - selector:
+        matchLabels:
+          os: linux
+          arch: amd64
+      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-amd64.tar.gz
+      sha256: d48c5152bac3df331f5814a0856f9e2762e4a7d3fe1cc9b266df6f5e3574f872
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-kf-linux-amd64
+    - selector:
+        matchLabels:
+          os: linux
+          arch: arm
+      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-arm.tar.gz
+      sha256: 6ca290c11b4f9be9bb371e4322280a2e406c92dd85415f8656eb37a46521bbe0
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-kf-linux-arm
+    - selector:
+        matchLabels:
+          os: linux
+          arch: arm64
+      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-arm64.tar.gz
+      sha256: ae3cd7b1913b5fdff38be1fc0426d90e705efdddb2958f88987bfb7f78b9ece8
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-kf-linux-arm64
+    - selector:
+        matchLabels:
+          os: windows
+          arch: amd64
+      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-windows-amd64.zip
+      sha256: 57b6992b86a63b3ec343f749a6e3340227a14ec302c87bec49ace8f32f472d94
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-kf-windows-amd64.exe
