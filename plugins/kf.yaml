@@ -14,7 +14,7 @@ spec:
           os: darwin
           arch: amd64
       uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-darwin-amd64.tar.gz
-      sha256: d0cc744483610bc203f9cbac9acce6682df9311c83955147ff6c187d8292cb52
+      sha256: a743da511c42a137dc2a466ef206085710680ed96240fe09fce7e763f4b057a5
       files:
         - from: "*"
           to: "."
@@ -24,7 +24,7 @@ spec:
           os: linux
           arch: amd64
       uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-amd64.tar.gz
-      sha256: d48c5152bac3df331f5814a0856f9e2762e4a7d3fe1cc9b266df6f5e3574f872
+      sha256: 3091a665ded30959ba93f4a612efc184c081c2a376af9fef927f7596d97a409e
       files:
         - from: "*"
           to: "."
@@ -34,7 +34,7 @@ spec:
           os: linux
           arch: arm
       uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-arm.tar.gz
-      sha256: 6ca290c11b4f9be9bb371e4322280a2e406c92dd85415f8656eb37a46521bbe0
+      sha256: a82ba969d396bc9e813eb167d33cf103e0f70946b63c20b34f95306ebf8ad06a
       files:
         - from: "*"
           to: "."
@@ -44,7 +44,7 @@ spec:
           os: linux
           arch: arm64
       uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-arm64.tar.gz
-      sha256: ae3cd7b1913b5fdff38be1fc0426d90e705efdddb2958f88987bfb7f78b9ece8
+      sha256: 1613e1cf66f6916523fb84c3740c59528dc2ae25a2173b725a0aaf36402830a2
       files:
         - from: "*"
           to: "."
@@ -54,7 +54,7 @@ spec:
           os: windows
           arch: amd64
       uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-windows-amd64.zip
-      sha256: 57b6992b86a63b3ec343f749a6e3340227a14ec302c87bec49ace8f32f472d94
+      sha256: 938f56785a8a19779e779f96e4fe715e0e5e942b5a12ab6eeec85ad5b4b48c23
       files:
         - from: "*"
           to: "."
