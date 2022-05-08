@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: kf
 spec:
-  version: v0.1.0
+  version: v0.2.0
   homepage: https://kubeform.com
   shortDescription: kubectl plugin for Kubeform by AppsCode
   description: |
@@ -13,18 +13,28 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-darwin-amd64.tar.gz
-      sha256: a743da511c42a137dc2a466ef206085710680ed96240fe09fce7e763f4b057a5
+      uri: https://github.com/kubeform/cli/releases/download/v0.2.0/kubectl-kf-darwin-amd64.tar.gz
+      sha256: cc5cef52d719bf35921545bdb9d8ceee29912a224df496a96b4a961c54bea6dd
       files:
         - from: "*"
           to: "."
       bin: kubectl-kf-darwin-amd64
     - selector:
         matchLabels:
+          os: darwin
+          arch: arm64
+      uri: https://github.com/kubeform/cli/releases/download/v0.2.0/kubectl-kf-darwin-arm64.tar.gz
+      sha256: bda29e4f62be9b330767d2ebad51656cc8900110b2809f9e8ade3d6eaddb3e93
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-kf-darwin-arm64
+    - selector:
+        matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-amd64.tar.gz
-      sha256: 3091a665ded30959ba93f4a612efc184c081c2a376af9fef927f7596d97a409e
+      uri: https://github.com/kubeform/cli/releases/download/v0.2.0/kubectl-kf-linux-amd64.tar.gz
+      sha256: 29013874eb598106dc72d62da130374a6ccb6a0d43db5aeab8346540a0d2be99
       files:
         - from: "*"
           to: "."
@@ -33,8 +43,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm
-      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-arm.tar.gz
-      sha256: a82ba969d396bc9e813eb167d33cf103e0f70946b63c20b34f95306ebf8ad06a
+      uri: https://github.com/kubeform/cli/releases/download/v0.2.0/kubectl-kf-linux-arm.tar.gz
+      sha256: 0ad0ac78a96110fc973ecdeadbc873891046bc0da3149f07e697499ca9f55733
       files:
         - from: "*"
           to: "."
@@ -43,8 +53,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-linux-arm64.tar.gz
-      sha256: 1613e1cf66f6916523fb84c3740c59528dc2ae25a2173b725a0aaf36402830a2
+      uri: https://github.com/kubeform/cli/releases/download/v0.2.0/kubectl-kf-linux-arm64.tar.gz
+      sha256: b901a700f84c4e84bc41c1cb6253dbc108ecdbd9e536ba030591116fc57440cc
       files:
         - from: "*"
           to: "."
@@ -53,8 +63,8 @@ spec:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/kubeform/cli/releases/download/v0.1.0/kubectl-kf-windows-amd64.zip
-      sha256: 938f56785a8a19779e779f96e4fe715e0e5e942b5a12ab6eeec85ad5b4b48c23
+      uri: https://github.com/kubeform/cli/releases/download/v0.2.0/kubectl-kf-windows-amd64.zip
+      sha256: d6c1ae0ce1945e2823de3c50c3db7894f3a9e4f70b66cd01f10e6d44f02fd7cf
       files:
         - from: "*"
           to: "."
