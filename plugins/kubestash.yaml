@@ -14,7 +14,7 @@ spec:
           os: darwin
           arch: amd64
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-darwin-amd64.tar.gz
-      sha256: 63c097a6922e5816253600e55a066b35f17437a54dfa9d6b4b02e5ee251057b9
+      sha256: a16cebf1cc9ea296b2e048aee253f7b162b02319e9b3bf76dcc0f7bfe0d82ae5
       files:
         - from: "*"
           to: "."
@@ -24,7 +24,7 @@ spec:
           os: darwin
           arch: arm64
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-darwin-arm64.tar.gz
-      sha256: 037dea2a0d7ee3e8bb51178283513fc38ba7be48e6f8dfbefc4d9a4c6a61e7c0
+      sha256: 73bd1d3325236fca6e17b4394f4d2ae5496c5f843969fb8eb71e28a14e72bad6
       files:
         - from: "*"
           to: "."
@@ -34,7 +34,7 @@ spec:
           os: linux
           arch: amd64
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-linux-amd64.tar.gz
-      sha256: 261bea2c756b773983a7adc55bde40dd0390b5cc9465cee33715d8871719cb06
+      sha256: 44990d440b8cc183d0c7d0300749ea5b42314b337253f5baac882404bacb7412
       files:
         - from: "*"
           to: "."
@@ -44,7 +44,7 @@ spec:
           os: linux
           arch: arm
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-linux-arm.tar.gz
-      sha256: 9d554d28b5897450f3edca7ed717b80e2e0c92a143435231d4a9c5f200b4b6e6
+      sha256: c7139a17941485f673d51a32ddbddaaca19114a566dd2859b82da8ff72b42356
       files:
         - from: "*"
           to: "."
@@ -54,7 +54,7 @@ spec:
           os: linux
           arch: arm64
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-linux-arm64.tar.gz
-      sha256: 6c177503a88d1eddc3ef86d2df382b82638d2d8bbb372a421cf841f13b9d8ac3
+      sha256: 6bcffb1e1a65716b684363af25311319569143a4e967fe8bac52fc5013c1699d
       files:
         - from: "*"
           to: "."
@@ -64,7 +64,7 @@ spec:
           os: windows
           arch: amd64
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-windows-amd64.zip
-      sha256: 72956644e5a27ff914c4c48c9875d98f0767843263a8b68313975fba45a47763
+      sha256: 0d3fd314ef5824a7cc19003c1adc4eaa9f4bd50c7671645a1e4ee88b7a62a163
       files:
         - from: "*"
           to: "."
