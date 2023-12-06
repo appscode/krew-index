@@ -14,7 +14,7 @@ spec:
           os: darwin
           arch: amd64
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-darwin-amd64.tar.gz
-      sha256: 
+      sha256: d1210b87452ca21aaa918754b3b03fcdaf29c8ce3fa8c016c02e383ab927198a
       files:
         - from: "*"
           to: "."
@@ -24,7 +24,7 @@ spec:
           os: darwin
           arch: arm64
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-darwin-arm64.tar.gz
-      sha256: 
+      sha256: 38d625f32e202431accd8a404eccbb89a99f3987fa2b5d695b2a5608c0128002
       files:
         - from: "*"
           to: "."
@@ -34,7 +34,7 @@ spec:
           os: linux
           arch: amd64
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-linux-amd64.tar.gz
-      sha256: 
+      sha256: 31e7ab441cf92e207722c4de3bdca24913922d2fce861e51856190d894c77fe2
       files:
         - from: "*"
           to: "."
@@ -44,7 +44,7 @@ spec:
           os: linux
           arch: arm
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-linux-arm.tar.gz
-      sha256: 
+      sha256: 9b2205ef91d35e89439858c364773ca029c7cb9334047ab3f9b2c9d47b2028e0
       files:
         - from: "*"
           to: "."
@@ -54,7 +54,7 @@ spec:
           os: linux
           arch: arm64
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-linux-arm64.tar.gz
-      sha256: 
+      sha256: cc1ca6bd888632793a1aaaa543fd9c1b450828632ef6b2cd80f294d4bf5c8ffc
       files:
         - from: "*"
           to: "."
@@ -64,7 +64,7 @@ spec:
           os: windows
           arch: amd64
       uri: https://github.com/kubestash/cli/releases/download/v0.1.0/kubectl-kubestash-windows-amd64.zip
-      sha256: 
+      sha256: 5dd1c84d191e19af761fcc3b0a49bfc535e3737261c274bf648607fa7f3335b4
       files:
         - from: "*"
           to: "."
