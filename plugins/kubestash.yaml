@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: kubestash
 spec:
-  version: v0.4.0
+  version: v0.5.0
   homepage: https://kubestash.com
   shortDescription: kubectl plugin for KubeStash by AppsCode
   description: |
@@ -13,8 +13,8 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/kubestash/cli/releases/download/v0.4.0/kubectl-kubestash-darwin-amd64.tar.gz
-      sha256: c6a8a8003c0c587ff62ffba812d875448b29ef0db5eba7dc2056b1148b6b8b7d
+      uri: https://github.com/kubestash/cli/releases/download/v0.5.0/kubectl-kubestash-darwin-amd64.tar.gz
+      sha256: e17c75a5055cae8a2da6ccdffa8f6150a212e673b34c4d9795f5082a7cfdbbfd
       files:
         - from: "*"
           to: "."
@@ -23,8 +23,8 @@ spec:
         matchLabels:
           os: darwin
           arch: arm64
-      uri: https://github.com/kubestash/cli/releases/download/v0.4.0/kubectl-kubestash-darwin-arm64.tar.gz
-      sha256: d073162e8a1a1bb1f0ced35b166d0aa25e72aabdc952ed1cc05c6fa3b3a1994d
+      uri: https://github.com/kubestash/cli/releases/download/v0.5.0/kubectl-kubestash-darwin-arm64.tar.gz
+      sha256: f55d1c0545d6512d306a1da6c661470b2eaa9bf3b9756f4126eacebcd0249c2a
       files:
         - from: "*"
           to: "."
@@ -33,8 +33,8 @@ spec:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/kubestash/cli/releases/download/v0.4.0/kubectl-kubestash-linux-amd64.tar.gz
-      sha256: 070392a727483efd18cdad3e33a91717094973fafc468b0d7b2981b72eea9dd9
+      uri: https://github.com/kubestash/cli/releases/download/v0.5.0/kubectl-kubestash-linux-amd64.tar.gz
+      sha256: 90fc16b40fdf66b7f1e828f2b0d6a2d87763b79913896745ef5176c05f246acf
       files:
         - from: "*"
           to: "."
@@ -43,8 +43,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm
-      uri: https://github.com/kubestash/cli/releases/download/v0.4.0/kubectl-kubestash-linux-arm.tar.gz
-      sha256: bb4e4e6f3928de7f0f064f431b0b20849ce5cb96a3b0a38cb149eca9cda1fd6a
+      uri: https://github.com/kubestash/cli/releases/download/v0.5.0/kubectl-kubestash-linux-arm.tar.gz
+      sha256: 6276a1b25881ab474ac13bbb52da5054ceaa7b8a7afe348a4235154484272032
       files:
         - from: "*"
           to: "."
@@ -53,8 +53,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/kubestash/cli/releases/download/v0.4.0/kubectl-kubestash-linux-arm64.tar.gz
-      sha256: c92e7e6ce3a1c0ec5e92127ba39605e853afab2e714687d72309d272893e0899
+      uri: https://github.com/kubestash/cli/releases/download/v0.5.0/kubectl-kubestash-linux-arm64.tar.gz
+      sha256: 28c40c86f59423e7bd5350f9cce3088764a554bdfb334238c2303b92a111d13d
       files:
         - from: "*"
           to: "."
@@ -63,8 +63,8 @@ spec:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/kubestash/cli/releases/download/v0.4.0/kubectl-kubestash-windows-amd64.zip
-      sha256: 3d1c2c1b2884d723a6e8c622a5ea95ab9b82323c8113a7aa37e4b8ff23023976
+      uri: https://github.com/kubestash/cli/releases/download/v0.5.0/kubectl-kubestash-windows-amd64.zip
+      sha256: 1a3946467dfe442fd0d554872f429aa83f965b321d8bf99ac040ca7bdebf0a7c
       files:
         - from: "*"
           to: "."
