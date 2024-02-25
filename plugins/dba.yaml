@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: dba
 spec:
-  version: v0.42.0
+  version: v0.3.1
   homepage: https://kubedb.com
   shortDescription: kubectl plugin for KubeDB by AppsCode
   description: |
@@ -13,59 +13,59 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/kubedb/cli/releases/download/v0.42.0/kubectl-dba-darwin-amd64.tar.gz
-      sha256: cda2451a93cfb495493c6bb7d93e13d67dae5da0063207cffe4176e414e2d9d9
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-darwin-amd64.tar.gz
+      sha256: e8759ebfa128e4a1fdb379c011509e1876e7d7820aeb540c0f09fa6e9ba33e34
       files:
         - from: "*"
           to: "."
-      bin: kubectl-dba-darwin-amd64
+      bin: kubectl-connect-darwin-amd64
     - selector:
         matchLabels:
           os: darwin
           arch: arm64
-      uri: https://github.com/kubedb/cli/releases/download/v0.42.0/kubectl-dba-darwin-arm64.tar.gz
-      sha256: 06f429b8b8ac254baef888fa1bc9e01214d3f625bcf2927aa5df6fc1613ed20d
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-darwin-arm64.tar.gz
+      sha256: 83c682f33f1571c5df83a25a50ba8e2335c37171b640ae523fa0f3f5966a5bd9
       files:
         - from: "*"
           to: "."
-      bin: kubectl-dba-darwin-arm64
+      bin: kubectl-connect-darwin-arm64
     - selector:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/kubedb/cli/releases/download/v0.42.0/kubectl-dba-linux-amd64.tar.gz
-      sha256: 67232ef053c6dc4b291a6059cf2834282c43bad19dc721c7b477dd4bbbaca932
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-linux-amd64.tar.gz
+      sha256: eccf7ea84a0749a462f513ec80a6e0f4a4154bd1668235541d49ca073d6dd8cd
       files:
         - from: "*"
           to: "."
-      bin: kubectl-dba-linux-amd64
+      bin: kubectl-connect-linux-amd64
     - selector:
         matchLabels:
           os: linux
           arch: arm
-      uri: https://github.com/kubedb/cli/releases/download/v0.42.0/kubectl-dba-linux-arm.tar.gz
-      sha256: 6051d08f92b7743597aaf724ff6316f5d50846a7671d89fadf53dee61957b438
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-linux-arm.tar.gz
+      sha256: 
       files:
         - from: "*"
           to: "."
-      bin: kubectl-dba-linux-arm
+      bin: kubectl-connect-linux-arm
     - selector:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/kubedb/cli/releases/download/v0.42.0/kubectl-dba-linux-arm64.tar.gz
-      sha256: af728f2bc1278d055a53bb037b37ab8adaa35bb01ff59afa659b6a47c57431f8
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-linux-arm64.tar.gz
+      sha256: 8b8c9a5bfeef7119562e46f9b45279397828a44a52b8928cfb0562e46e8e7355
       files:
         - from: "*"
           to: "."
-      bin: kubectl-dba-linux-arm64
+      bin: kubectl-connect-linux-arm64
     - selector:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/kubedb/cli/releases/download/v0.42.0/kubectl-dba-windows-amd64.zip
-      sha256: 51a8edf7de3ac03cbe09d479763284a79a08780a434464d7215ee27ff7aea88a
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-windows-amd64.zip
+      sha256: 885d0d48fd473b3ae4645d3cce51e135fa359b6c9612524d66888a89b1337e72
       files:
         - from: "*"
           to: "."
-      bin: kubectl-dba-windows-amd64.exe
+      bin: kubectl-connect-windows-amd64.exe
