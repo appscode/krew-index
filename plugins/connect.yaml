@@ -1,0 +1,71 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: connect
+spec:
+  version: v0.3.1
+  homepage: https://kubedb.com
+  shortDescription: kubectl plugin for KubeDB by AppsCode
+  description: |
+    This plugin provides a list of commands to interact with KubeDB custom resources.
+  platforms:
+    - selector:
+        matchLabels:
+          os: darwin
+          arch: amd64
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-darwin-amd64.tar.gz
+      sha256: 24cf11fd45fae3dd6b946af05b1d7eeea208ab80520cc91c17474429041458e6
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-connect-darwin-amd64
+    - selector:
+        matchLabels:
+          os: darwin
+          arch: arm64
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-darwin-arm64.tar.gz
+      sha256: 53ae5aee530f47184c0ea716abb5a36a2207065cba35829a9db93656a4044206
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-connect-darwin-arm64
+    - selector:
+        matchLabels:
+          os: linux
+          arch: amd64
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-linux-amd64.tar.gz
+      sha256: 5acc9f9f9c4eba14306ed8c0fac47a7ef353685bdcecfa839e7bf36947835401
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-connect-linux-amd64
+    - selector:
+        matchLabels:
+          os: linux
+          arch: arm
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-linux-arm.tar.gz
+      sha256: 5b9286b11f846d718f2a7fb34e3eb134ac00c864e0ca1037f8b21138d5bbcd02
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-connect-linux-arm
+    - selector:
+        matchLabels:
+          os: linux
+          arch: arm64
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-linux-arm64.tar.gz
+      sha256: e70e93edc7107f620a17487b5d09951ba68cded23ac4ab443b497e16dca3cc75
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-connect-linux-arm64
+    - selector:
+        matchLabels:
+          os: windows
+          arch: amd64
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-windows-amd64.zip
+      sha256: 893a05f70e2bd647bac2ef4215fb4272320831675e06d8c8bb5f38becda8ee52
+      files:
+        - from: "*"
+          to: "."
+      bin: kubectl-connect-windows-amd64.exe
