@@ -14,7 +14,7 @@ spec:
           os: darwin
           arch: amd64
       uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-darwin-amd64.tar.gz
-      sha256: cd235c8580e0f25f2e0fdc3664cc59e8e94b64112ffc4c3269c0c3600dc9d236
+      sha256: 760eaf5f277d091af9ea9cc437230bd5b815a7beb9941aff312e0658dba2508e
       files:
         - from: "*"
           to: "."
@@ -24,7 +24,7 @@ spec:
           os: darwin
           arch: arm64
       uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-darwin-arm64.tar.gz
-      sha256: 932b2e9b59ed10962904281ffdcd59f58a82a3d132bdc0f3a77e2ebaad8de2fe
+      sha256: e4bc4f5976b6892a638fdb27852c6e76eaf69075e5b44d76f135b5b6dcb26307
       files:
         - from: "*"
           to: "."
@@ -34,7 +34,7 @@ spec:
           os: linux
           arch: amd64
       uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-linux-amd64.tar.gz
-      sha256: 4c2f7b5b02dbb5dfda289d139c50830a1bb54bf16b9aa290768ab7379212e0ae
+      sha256: c2505b2281859838581a21cc85e0eb895daac4e3d704e0f0f595f5974cc948a0
       files:
         - from: "*"
           to: "."
@@ -44,7 +44,7 @@ spec:
           os: linux
           arch: arm
       uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-linux-arm.tar.gz
-      sha256: b62550e15bad79a96688b2530a0bb6e38a6cc217df2239d0b5f773488a0e5070
+      sha256: d3f673405d5e09cef4f2efcb90e1f3471f275bae7eb76d11ce61400132cf1ffc
       files:
         - from: "*"
           to: "."
@@ -54,7 +54,7 @@ spec:
           os: linux
           arch: arm64
       uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-linux-arm64.tar.gz
-      sha256: fa68afc47ee8de361ba806a7c8fa8910299a5d11d3a9fdeae5b7a095469505c7
+      sha256: 678197fb025859ade8e5ad28d268f2be2cfc2104454299f02d6bb954a33134ae
       files:
         - from: "*"
           to: "."
@@ -64,7 +64,7 @@ spec:
           os: windows
           arch: amd64
       uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.1/kubectl-connect-windows-amd64.zip
-      sha256: d4bd707db7896273ccf1fc296317d006356b6ea731d9b2e25601e636cff84d47
+      sha256: 7f45648384659d09c6e77b687f0e966a9162cf6781d4139cb6e07d0aa04e58f2
       files:
         - from: "*"
           to: "."
