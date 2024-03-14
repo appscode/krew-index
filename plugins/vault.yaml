@@ -14,7 +14,7 @@ spec:
           os: darwin
           arch: amd64
       uri: https://github.com/kubevault/cli/releases/download/v0.18.0/kubectl-vault-darwin-amd64.tar.gz
-      sha256: 31bbcb37f1e32a0407832f5af8ded2fcbec671fdc442b2090a38fedd92173018
+      sha256: af816eaa49d9f40c602a6abacb72c58e9d25b70838f977b87283522e81cbada2
       files:
         - from: "*"
           to: "."
@@ -24,7 +24,7 @@ spec:
           os: darwin
           arch: arm64
       uri: https://github.com/kubevault/cli/releases/download/v0.18.0/kubectl-vault-darwin-arm64.tar.gz
-      sha256: a143cdeee8dc3b16a55ad7dcfb9af79c2121cc231e453ec5df6d0557725b0035
+      sha256: c838f44645d0a6a1529e6a92184ddb6054a3122ad47d6b8d202cb0d0337a1868
       files:
         - from: "*"
           to: "."
@@ -34,7 +34,7 @@ spec:
           os: linux
           arch: amd64
       uri: https://github.com/kubevault/cli/releases/download/v0.18.0/kubectl-vault-linux-amd64.tar.gz
-      sha256: d1ba43679ef27dd8e85b0eb1661bc7f7e12065d4af527f18c03ed936fc68b0e6
+      sha256: c4553ba72bcb9a9d46357906b60cd251b506edc18482b1d992833f10e17fe950
       files:
         - from: "*"
           to: "."
@@ -44,7 +44,7 @@ spec:
           os: linux
           arch: arm
       uri: https://github.com/kubevault/cli/releases/download/v0.18.0/kubectl-vault-linux-arm.tar.gz
-      sha256: da5487abc7f2db03f89587a95ef5c3ece41c12edcf624fb2b813c3362b01f2bb
+      sha256: 36a2d317d9437664e64f2276f84fce40f509f14c0238f83a96726ce615c54228
       files:
         - from: "*"
           to: "."
@@ -54,7 +54,7 @@ spec:
           os: linux
           arch: arm64
       uri: https://github.com/kubevault/cli/releases/download/v0.18.0/kubectl-vault-linux-arm64.tar.gz
-      sha256: 76652b357cdaec96c6d3647f08f6dd512142d8472bc370b5af25dc49e59383cc
+      sha256: ac7ee249c0d178473a8969bb7c2455fb0fc650a83b9b99d2ecd1894a473efce0
       files:
         - from: "*"
           to: "."
@@ -64,7 +64,7 @@ spec:
           os: windows
           arch: amd64
       uri: https://github.com/kubevault/cli/releases/download/v0.18.0/kubectl-vault-windows-amd64.zip
-      sha256: 2b8aa324f311e76ce8e34e0d8ff6c6b158362b58a3da507eadfcfd122990096b
+      sha256: d0a75a36ae17a54e7e728ce3786a5b6dfa29119c08f097897b204191975cdf12
       files:
         - from: "*"
           to: "."
