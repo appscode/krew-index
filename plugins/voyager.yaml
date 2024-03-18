@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: voyager
 spec:
-  version: v0.0.14
+  version: v0.0.15
   homepage: https://voyagermesh.com
   shortDescription: kubectl plugin for Voyager by AppsCode
   description: |
@@ -13,8 +13,8 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.14/kubectl-voyager-darwin-amd64.tar.gz
-      sha256: a86fcccde892a8b945a60c07b9add9af35b6a5c833fd47193e439f2a084dba75
+      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.15/kubectl-voyager-darwin-amd64.tar.gz
+      sha256: 051ed4c9e96ffef6df2c1f08c34d31b5d8f026760d5aa5e21ace4dc27be06436
       files:
         - from: "*"
           to: "."
@@ -23,8 +23,8 @@ spec:
         matchLabels:
           os: darwin
           arch: arm64
-      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.14/kubectl-voyager-darwin-arm64.tar.gz
-      sha256: efe3a6d61ef7085aee43d8880a699e10b4e5702037cbf86d5f663caa7f117c61
+      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.15/kubectl-voyager-darwin-arm64.tar.gz
+      sha256: 1761604af30b4998a8e6ffea779cda7ccdcf8f42bfea7dbcc190189b9359738b
       files:
         - from: "*"
           to: "."
@@ -33,8 +33,8 @@ spec:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.14/kubectl-voyager-linux-amd64.tar.gz
-      sha256: 158884c67dab003ab9318f69a58c939e1366d3d18e114443e4b38bb6340ce47e
+      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.15/kubectl-voyager-linux-amd64.tar.gz
+      sha256: 88d5be54b985f191dbef6dc8ac989ec6f0ff0bb8788ce316be0a4674e2086962
       files:
         - from: "*"
           to: "."
@@ -43,8 +43,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm
-      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.14/kubectl-voyager-linux-arm.tar.gz
-      sha256: eedf2c8ec790ce68724c3e54b0ded672453275e6409b94d7c91e758346b8f209
+      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.15/kubectl-voyager-linux-arm.tar.gz
+      sha256: ac3d5a2fe40f956d4fabeed5b05e397a916eb6da8cc7f654792bf7284ee33e93
       files:
         - from: "*"
           to: "."
@@ -53,8 +53,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.14/kubectl-voyager-linux-arm64.tar.gz
-      sha256: c0cea83f2c3177dfa5fe3005cf09990970b67c33546efe5e5fd4bb4433d25d69
+      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.15/kubectl-voyager-linux-arm64.tar.gz
+      sha256: 99d7b06a23fe75d763ce65a6e4e9040d4680ca3fd26f5fcb438ded0694a3a9c2
       files:
         - from: "*"
           to: "."
@@ -63,8 +63,8 @@ spec:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.14/kubectl-voyager-windows-amd64.zip
-      sha256: 542a3e1e9fb25950a38ac127e8cc6fc69278afc4832b1a5e01d7f459b18b3b91
+      uri: https://github.com/voyagermesh/cli/releases/download/v0.0.15/kubectl-voyager-windows-amd64.zip
+      sha256: d56d62a765e95385ab2fb8f6300cd3709f680aaeec56fa2eaa108e6d0012ea11
       files:
         - from: "*"
           to: "."
