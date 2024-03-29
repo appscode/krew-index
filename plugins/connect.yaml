@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: connect
 spec:
-  version: v0.3.8
+  version: v0.3.9
   homepage: https://appscode.com
   shortDescription: kubectl plugin for Kubernetes native Services by AppsCode
   description: |
@@ -13,8 +13,8 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.8/kubectl-connect-darwin-amd64.tar.gz
-      sha256: acbf66440dce6536e876eb9cfc977298967161f25d88262f74130dfbc6fa6277
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.9/kubectl-connect-darwin-amd64.tar.gz
+      sha256: 3534f53755d35f1bc133e213f4db9a7c5474b43869b7fd37bb50a076a74af90c
       files:
         - from: "*"
           to: "."
@@ -23,8 +23,8 @@ spec:
         matchLabels:
           os: darwin
           arch: arm64
-      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.8/kubectl-connect-darwin-arm64.tar.gz
-      sha256: a2ef7feb4372f99fb862864f740f3d0aefcc785fac193e96b4db514ab3ff78f6
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.9/kubectl-connect-darwin-arm64.tar.gz
+      sha256: 897a4449c3d98a5a78ea45527f1830b955a7605081f9c867588fcf4a2d323e62
       files:
         - from: "*"
           to: "."
@@ -33,8 +33,8 @@ spec:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.8/kubectl-connect-linux-amd64.tar.gz
-      sha256: 486e42650d96efb7d905b8f59a4757671aa755f080bf5eba32436300cb11fda8
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.9/kubectl-connect-linux-amd64.tar.gz
+      sha256: 2957dbfc266a25b3c6e7f5760941cc98616a8c6f563503f3145654a8b5dd53c6
       files:
         - from: "*"
           to: "."
@@ -43,8 +43,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm
-      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.8/kubectl-connect-linux-arm.tar.gz
-      sha256: 6483ba5058bbb35ae8e3aedeb1a4a0ff58ffea16638dee318d1775d81d95eccb
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.9/kubectl-connect-linux-arm.tar.gz
+      sha256: edccf633b30f875759e260d26bbc377cdaf915d2c68cc90050bf80f6ef399e3f
       files:
         - from: "*"
           to: "."
@@ -53,8 +53,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.8/kubectl-connect-linux-arm64.tar.gz
-      sha256: dd903534e18edb925e1fadf40e308a1396934d8282658afa9e67187086c45fb7
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.9/kubectl-connect-linux-arm64.tar.gz
+      sha256: 73118b3153f6b7a37221cb58b70c419bde631664efc5c7530f94502f2632f157
       files:
         - from: "*"
           to: "."
@@ -63,8 +63,8 @@ spec:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.8/kubectl-connect-windows-amd64.zip
-      sha256: 1cc53e6345abbd3a0ce2809672031986469783b4fee8a20cd1dd084e34546bf9
+      uri: https://github.com/bytebuilders/kube-bind/releases/download/v0.3.9/kubectl-connect-windows-amd64.zip
+      sha256: 070301aa126b2e95b58e0c2b3cfc348d9199a1f980c1635de64de95e81001e63
       files:
         - from: "*"
           to: "."
