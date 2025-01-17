@@ -14,7 +14,7 @@ spec:
           os: darwin
           arch: amd64
       uri: https://github.com/kubedb/cli/releases/download/v0.51.0/kubectl-dba-darwin-amd64.tar.gz
-      sha256: c7b283a79ac571a338f1ba9cfdce10ab354e123efebf1698f5c52cf91a7fa4e2
+      sha256: 76d2613ba634976b4f89a13a05bdd32146f1b486a8130cab3996485119dc8b43
       files:
         - from: "*"
           to: "."
@@ -24,7 +24,7 @@ spec:
           os: darwin
           arch: arm64
       uri: https://github.com/kubedb/cli/releases/download/v0.51.0/kubectl-dba-darwin-arm64.tar.gz
-      sha256: 77dd30e8be7808ac89c431b5b20082cbdaf5a6344f29fa4f694e9f32ff901cd6
+      sha256: 9fa5c8b61927be5eb0aba65cdba22ba3387cf06ef95ff4da29a6a8ef635fcf01
       files:
         - from: "*"
           to: "."
@@ -34,7 +34,7 @@ spec:
           os: linux
           arch: amd64
       uri: https://github.com/kubedb/cli/releases/download/v0.51.0/kubectl-dba-linux-amd64.tar.gz
-      sha256: 4ba704acec05de64bc7b75a258262f3e14edbb12b2c0b6ac43aefa8410ea1b4f
+      sha256: 356fcc221c6d42e6a05c2a7968bc99e423047fbb7b1adc6fda4fe799556e8feb
       files:
         - from: "*"
           to: "."
@@ -44,7 +44,7 @@ spec:
           os: linux
           arch: arm
       uri: https://github.com/kubedb/cli/releases/download/v0.51.0/kubectl-dba-linux-arm.tar.gz
-      sha256: e187781ad85f6876360dc7754ff4a175c16c83cddbef1beb56dd6694d5419835
+      sha256: 78ae3eadebcf8f9d5dfe3c34272ef73888a3dea02c8c473033d5a9abfac0944d
       files:
         - from: "*"
           to: "."
@@ -54,7 +54,7 @@ spec:
           os: linux
           arch: arm64
       uri: https://github.com/kubedb/cli/releases/download/v0.51.0/kubectl-dba-linux-arm64.tar.gz
-      sha256: e7bf4a9d839d284f02d8f2544d6c6198dad0ee0c77c21be02de9f9cbfe0c5164
+      sha256: 5c6d214aa46546fc314be568b039013961f9c34dcdf7ed20d9adcf49ee297231
       files:
         - from: "*"
           to: "."
@@ -64,7 +64,7 @@ spec:
           os: windows
           arch: amd64
       uri: https://github.com/kubedb/cli/releases/download/v0.51.0/kubectl-dba-windows-amd64.zip
-      sha256: 8a5ffea5c227e774aad12e761e44af2ce08692b2d2ae5cbcd133c64a88798413
+      sha256: 6910c99c39c8147bb4e402ab0c5e04dce009181dae70b369c9b0999cdef15e9e
       files:
         - from: "*"
           to: "."
