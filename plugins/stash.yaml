@@ -14,7 +14,7 @@ spec:
           os: darwin
           arch: amd64
       uri: https://github.com/stashed/cli/releases/download/v0.41.1/kubectl-stash-darwin-amd64.tar.gz
-      sha256: 2fe74367f291661d5ff5d3741eb0c090fc883befc86c077fe105860d6fcd2a08
+      sha256: 07c9d8bfb0e0fdc71bc565dbe571d017dd0ebda2775819f8582dcfe442fcbe80
       files:
         - from: "*"
           to: "."
@@ -24,7 +24,7 @@ spec:
           os: darwin
           arch: arm64
       uri: https://github.com/stashed/cli/releases/download/v0.41.1/kubectl-stash-darwin-arm64.tar.gz
-      sha256: 0c44777aa0563a7e0217d5ed44a0029e648c49482479932bf9a2861ef3eb4735
+      sha256: e554c38b3bb5f96ebc225ec5f314a4b221e05bdbf9edd14aef6226ea70292276
       files:
         - from: "*"
           to: "."
@@ -34,7 +34,7 @@ spec:
           os: linux
           arch: amd64
       uri: https://github.com/stashed/cli/releases/download/v0.41.1/kubectl-stash-linux-amd64.tar.gz
-      sha256: 9dd363e406f7d3656944692d99f7e085e4a8443e5f7ece1d009b84cd6156c94b
+      sha256: af4e5b208e3fda80ab660c9792d0f23a255619f4cea5ed4cd306c01b23dcea1d
       files:
         - from: "*"
           to: "."
@@ -44,7 +44,7 @@ spec:
           os: linux
           arch: arm
       uri: https://github.com/stashed/cli/releases/download/v0.41.1/kubectl-stash-linux-arm.tar.gz
-      sha256: 9a6c90ae10120719b3e102525fd34c1331866faea9f42a508ece8df57c96a684
+      sha256: 82aa7220fefde2a31f259164c38dfae32b5978d52433863b44f0477a4fb1ca5f
       files:
         - from: "*"
           to: "."
@@ -54,7 +54,7 @@ spec:
           os: linux
           arch: arm64
       uri: https://github.com/stashed/cli/releases/download/v0.41.1/kubectl-stash-linux-arm64.tar.gz
-      sha256: 2f26ffc90af2985aad8c67be2919080ef6708fbba965ca91c07c9d8b223c4955
+      sha256: 95440c945e77712d612bf1f21d2b2897b26cfbf1e47763ab058e9d8ea73d76e0
       files:
         - from: "*"
           to: "."
@@ -64,7 +64,7 @@ spec:
           os: windows
           arch: amd64
       uri: https://github.com/stashed/cli/releases/download/v0.41.1/kubectl-stash-windows-amd64.zip
-      sha256: 211595f12c5f61ec8534bec17aeb4d7bb160f46f0ddb87fc073666902a6b3309
+      sha256: 19400c7855a4c7169a11e71ae2ce62a7cf0940d770b52ba3725059d162ae9c9b
       files:
         - from: "*"
           to: "."
