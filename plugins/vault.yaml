@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: vault
 spec:
-  version: v0.22.0
+  version: v0.23.0
   homepage: https://kubevault.com
   shortDescription: kubectl plugin for KubeVault by AppsCode
   description: |
@@ -13,8 +13,8 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/kubevault/cli/releases/download/v0.22.0/kubectl-vault-darwin-amd64.tar.gz
-      sha256: e0a33a550fe2954eb46553de99e51ded39a5881628d12b9667054b65f13a8475
+      uri: https://github.com/kubevault/cli/releases/download/v0.23.0/kubectl-vault-darwin-amd64.tar.gz
+      sha256: cdbfe00784b767f97f3f5c7aea7da5014b410ee047ec43bd157bbecf1583279a
       files:
         - from: "*"
           to: "."
@@ -23,8 +23,8 @@ spec:
         matchLabels:
           os: darwin
           arch: arm64
-      uri: https://github.com/kubevault/cli/releases/download/v0.22.0/kubectl-vault-darwin-arm64.tar.gz
-      sha256: ae9e6a36b68b552430e13861da73dd7952212c476bcd10793f1898212ca971ab
+      uri: https://github.com/kubevault/cli/releases/download/v0.23.0/kubectl-vault-darwin-arm64.tar.gz
+      sha256: 0b938c05edfd82d6e18a01b71edd96c516eb0be9ed4b610728043fb242634375
       files:
         - from: "*"
           to: "."
@@ -33,8 +33,8 @@ spec:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/kubevault/cli/releases/download/v0.22.0/kubectl-vault-linux-amd64.tar.gz
-      sha256: 479e1b626326e9bd820733320e8d1e4203d02a5f01360ae6a3de7bb924b30bb8
+      uri: https://github.com/kubevault/cli/releases/download/v0.23.0/kubectl-vault-linux-amd64.tar.gz
+      sha256: 7e47b868c0d5cf11736e813340c010882ba96d84bb1b9b9651c1d567c34fb735
       files:
         - from: "*"
           to: "."
@@ -43,8 +43,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm
-      uri: https://github.com/kubevault/cli/releases/download/v0.22.0/kubectl-vault-linux-arm.tar.gz
-      sha256: cf4914a6b1efbba41d8eb7827006b448ed0ba6cff1531f0c86d86d93331803d0
+      uri: https://github.com/kubevault/cli/releases/download/v0.23.0/kubectl-vault-linux-arm.tar.gz
+      sha256: a686728a9da6578d77c0fa3b052c58a646aad6e1d10c7a081fb21fc04638e0ce
       files:
         - from: "*"
           to: "."
@@ -53,8 +53,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/kubevault/cli/releases/download/v0.22.0/kubectl-vault-linux-arm64.tar.gz
-      sha256: 966136af3b4430d59973ab51e817ff791cb2731496e126c5a9909e04aa1e274d
+      uri: https://github.com/kubevault/cli/releases/download/v0.23.0/kubectl-vault-linux-arm64.tar.gz
+      sha256: 379bbd55c9a3729973d940fa70139b1876726ce99b62df0822c750ea84007c01
       files:
         - from: "*"
           to: "."
@@ -63,8 +63,8 @@ spec:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/kubevault/cli/releases/download/v0.22.0/kubectl-vault-windows-amd64.zip
-      sha256: 8b6618ccce20411db7128b8f91594a1347af3b68fd480f570434e9b844b94366
+      uri: https://github.com/kubevault/cli/releases/download/v0.23.0/kubectl-vault-windows-amd64.zip
+      sha256: ed3b089dd36f75d1935d8f29d6cd23366c93ea40925fa054b30b9c18f84d74ae
       files:
         - from: "*"
           to: "."
